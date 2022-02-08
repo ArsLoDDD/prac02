@@ -133,3 +133,7 @@ justify-content: space-around;
 #section-2 li {
     width: 31%;
 }
+#section-4 {
+    display: flex;
+
+}
