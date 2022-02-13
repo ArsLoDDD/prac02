@@ -171,3 +171,14 @@ background: rgb(173, 173, 173);
 
 
 }
+
+@media screen and (max-width: 700px) {
+#section-1 .content-text {
+	columns: 1;
+}
+#section-2 ul {
+	display: flex;
+    flex-flow: column wrap;
+margin-left: 45px;
+}
+}
