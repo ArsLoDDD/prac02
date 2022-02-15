@@ -125,11 +125,7 @@ p {
 	text-decoration: none;
 	color: rgb(9, 137, 211);
 }
-#section-2 ul {
-	display: flex;
-	justify-content: space-around;
-    /* width: 50%; */
-}
+
 #section-1 .content-text {
 	columns: 2;
 	column-gap: 1em;
@@ -172,13 +168,16 @@ background: rgb(173, 173, 173);
 
 }
 
-@media screen and (max-width: 700px) {
-#section-1 .content-text {
-	columns: 1;
-}
-#section-2 ul {
+@media screen and (min-width: 700px) {
+	
+	#section-1 .content-text {
+		columns: 1;
+	}
+	
+	#section-2 ul {
 	display: flex;
-    flex-flow: column wrap;
-margin-left: 45px;
+	justify-content: space-around;
+    /* width: 50%; */
 }
-}
+	}
+
